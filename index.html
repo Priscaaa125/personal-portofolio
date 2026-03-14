@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Della Prisca Dohanis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo-text">Tanya ikan</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-toggle">
+        <button id="themeBtn" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1500">
+            <h1>Della Prisca Dohanis</h1>
+            <p>> Computer Engineering | Student & Coder</p>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="profile-photos">
+                <div class="p-photo-item" data-aos="fade-up" data-aos-delay="100"><img src="della6.jpeg" alt="Photo 1"></div>
+                <div class="p-photo-item" data-aos="fade-up" data-aos-delay="300"><img src="della7.jpeg" alt="Photo 2"></div>
+                <div class="p-photo-item" data-aos="fade-up" data-aos-delay="500"><img src="della8.jpeg" alt="Photo 3"></div>
+            </div>
+
+            <div class="intro-text-section" data-aos="fade-right">
+                <h2>About Me</h2>
+                <div class="intro-content">
+                    <p>Let me introduce myself. I'm a student majoring in Computer Engineering. Since I decided to enter this world, I've been determined to seriously study computer science and programming. For me, the world of technology isn't just about code and hardware, but rather a vast canvas for expressing ideas and creating solutions. This strong desire to learn stems from the realization that technological development is moving very rapidly, and I want to be part of those driving it, not just a spectator.</p>
+                    <p>Currently, I'm still in the early stages of my long journey in the world of programming. I've begun to learn and master the basics of several programming languages, which will serve as a foundation for further progress. Although this achievement is still relatively modest, I view it as valuable capital to continue advancing to the next level. Every line of code I write and every error I fix is ​​a small achievement that fuels my enthusiasm to never stop learning.</p>
+                    <p>My greatest hope is to continue to develop and grow in this environment, both academically and non-academically. I want to not only understand the theory but also be able to apply it in meaningful, real-world projects. I realize this journey won't be easy, but with the support and prayers of various parties, I'm confident I can overcome every challenge. I hope I'm given the strength and courage to continue my work, so that one day the knowledge I've learned can make a positive contribution to many people.</p>
+                </div>
+            </div>
+
+            <div class="chat-section" data-aos="fade-up">
+                <h3>Send Anonymous Chat</h3>
+                <div class="chat-box">
+                    <textarea id="chatInput" rows="3" placeholder="Leave a secret message..."></textarea><br>
+                    <button class="btn-send" id="btnSend">Send Message</button>
+                </div>
+                <div class="latest-msg" id="msgBox">
+                    <small style="color: #94a3b8;">Latest Message:</small>
+                    <p id="msgText" style="font-style: italic; margin-top: 5px;"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="gallery" style="background: #f8fafc;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px; font-family: 'Montserrat';" data-aos="fade-down">Random Moments</h2>
+            <div class="random-grid">
+                <div class="random-item" data-aos="flip-left" data-aos-delay="100"><img src="della.jpeg" alt="1"></div>
+                <div class="random-item" data-aos="flip-left" data-aos-delay="200"><img src="della1.jpeg" alt="2"></div>
+                <div class="random-item" data-aos="flip-left" data-aos-delay="300"><img src="della2.jpeg" alt="3"></div>
+                <div class="random-item" data-aos="flip-left" data-aos-delay="400"><img src="della3.jpeg" alt="4"></div>
+                <div class="random-item" data-aos="flip-left" data-aos-delay="500"><img src="della4.jpeg" alt="5"></div>
+                <div class="random-item" data-aos="flip-left" data-aos-delay="600"><img src="della5.jpeg" alt="6"></div>
+            </div>
+
+            <div class="info-card-container" data-aos="zoom-in-up">
+                <div class="info-card">
+                    <h3>Personal Information</h3>
+                    <p><i class="fas fa-id-badge"></i> <strong>Name:</strong> Della Prisca Dohanis</p>
+                    <p><i class="fas fa-birthday-cake"></i> <strong>Born:</strong> Lembean, May 12, 2007</p>
+                    <p><i class="fas fa-university"></i> <strong>Education:</strong> Manado State Polytechnic (Computer Engineering)</p>
+                    <p><i class="fas fa-trophy"></i> <strong>Achievements:</strong> Provincial Informatics Olympiad (OSN) 2023 & 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="contact-flex" data-aos="fade-up">
+                <div class="contact-box">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <strong>Address</strong>
+                    <p>North Minahasa, Indonesia</p>
+                </div>
+                <div class="contact-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <strong>Phone</strong>
+                    <p>+62 812-3456-7890</p>
+                </div>
+                <div class="contact-box">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <strong>Email</strong>
+                    <p>dellaprisca007@gmail.com</p>
+                </div>
+            </div>
+            <p style="opacity: 0.4; border-top: 1px solid #334155; padding-top: 20px;">&copy; 2026 Della Prisca Dohanis</p>
+        </div>
+    </footer>
+
+    <div class="mini-logo" id="termBtn"><i class="fas fa-code"></i></div>
+    <div class="hacked-overlay" id="hackedOverlay">
+        <div class="terminal-box">
+            <div style="margin-bottom: 10px;">[LOGIN SUCCESSFUL]</div>
+            <div id="dateNow" style="color: #666; font-size: 0.8rem; margin-bottom: 20px;"></div>
+            <div style="color: #fff;">$ cat profile.txt</div>
+            <div style="margin-left: 15px; margin-bottom: 15px;">
+                User: Della Prisca<br>
+                Status: Computer Engineering Student
+            </div>
+            <button id="closeTermBtn" style="margin-top: 30px; background: #0f0; border: none; padding: 5px 20px; font-family: 'Fira Code'; font-weight: bold; cursor: pointer;">RETURN</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
